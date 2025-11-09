@@ -5,7 +5,7 @@
 
 .skip {
   position: absolute;
-  left: -9999px; /* hide off-screen normally */
+  left: -9999px; 
   top: -65px;
   padding: 6px 12px;
   background-color: #00274C;
@@ -15,13 +15,13 @@
 }
 
 .skip:focus {
-      /* stay visible on scroll */
-  left: 0;              /* align to left edge */
-  right: 0;             /* stretch to right edge */
-  top: 10px;            /* distance from top */
-  width: auto;          /* allow automatic width */
-  max-width: 90%;       /* optional: prevent overflow on small screens */
-  text-align: center;   /* center the text inside the link */
+     
+  left: 0;           
+  right: 0;           
+  top: 10px;           
+  width: auto;   
+  max-width: 90%;       
+  text-align: center;   
 }
 
 
@@ -692,9 +692,9 @@ body.error-page {
   ======================================== */
 .popup-banner {
   position: fixed;
-  top: 90px; /* adjust for header height */
-  right: 20px; /* distance from right edge */
-  width: 320px; /* width of the side popup */
+  top: 90px; 
+  right: 20px; 
+  width: 320px; 
   background-color: #00274c;
   color: #ffffff;
   padding: 20px;
@@ -706,21 +706,21 @@ body.error-page {
   transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
-/* Hidden state (slide-out) */
+
 .popup-banner.hidden {
   transform: translateX(120%);
   opacity: 0;
 }
 
-/* Inner content */
+
 .popup-content {
   position: relative;
 }
 
 .close-btn {
   position: absolute;
-  top: -6px;   /* move higher — you can increase this number if needed */
-  right: -6px; /* move more to the right */
+  top: -6px;   
+  right: -6px; 
   background: none;
   border: none;
   color: #ffcb05;
@@ -1002,18 +1002,18 @@ nav li {
   }
 
 .popup-banner {
-    top: 90px;       /* adjust for larger header */
+    top: 90px;       
     right: 20px;
-    width: 320px;    /* fixed width for desktop */
+    width: 320px;    
   }
 
   .popup-buttons {
-    flex-direction: column; /* could also be row if you want */
+    flex-direction: column; 
     gap: 10px;
   }
 
   .popup-btn {
-    width: auto;  /* let buttons size naturally on desktop */
+    width: auto;  
   }
   
 }
