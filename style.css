@@ -764,26 +764,6 @@ body.error-page {
   BREAKPOINT
   ======================================== */
 
-@media (max-width: 600px) {
-    .popup-banner {
-        padding: 15px 10px;
-    }
-
-    .popup-banner h3 {
-        font-size: 1.1rem;
-    }
-
-    .popup-buttons {
-        flex-direction: column;
-        gap: 10px;
-    }
-
-    .popup-btn {
-        width: 100%;
-        max-width: 300px;
-    }
-}
-
 @media all and (min-width: 825px) {
 
     body {
@@ -1019,6 +999,19 @@ nav li {
     display: block;
   }
 
+.popup-banner {
+    top: 90px;       /* adjust for larger header */
+    right: 20px;
+    width: 320px;    /* fixed width for desktop */
+  }
 
+  .popup-buttons {
+    flex-direction: column; /* could also be row if you want */
+    gap: 10px;
+  }
+
+  .popup-btn {
+    width: auto;  /* let buttons size naturally on desktop */
+  }
   
 }
